@@ -1,0 +1,28 @@
+{
+  "name": "create-ng-zorro",
+  "version": "0.800.2",
+  "keywords": [
+    "ng-zorro"
+  ],
+  "description": "npm create ng-zorro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yozman/create-ng-zorro.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "bugs": {
+    "url": "https://github.com/yozman/create-ng-zorro/issues"
+  },
+  "bin": {
+    "create-ng-zorro": "./index.js"
+  },
+  "dependencies": {
+    "@angular/cli": "^8.3.20",
+    "@ng-zorro/schematics": "0.800.2",
+    "execa": "^1.0.0"
+  }
+}
